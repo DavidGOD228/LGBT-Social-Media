@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when selected false 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#dedede",
+      "borderColor": "#A5B4BD",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "marginBottom": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "paddingBottom": 5,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 5,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#000000",
+        "fontSize": 12,
+      }
+    }
+  >
+    It works
+  </Text>
+</View>
+`;
+
+exports[`renders correctly when selected true 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  collapsable={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#4990E2",
+      "borderColor": "#A5B4BD",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "marginBottom": 10,
+      "marginRight": 10,
+      "opacity": 1,
+      "paddingBottom": 5,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 5,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 12,
+      }
+    }
+  >
+    It works
+  </Text>
+</View>
+`;

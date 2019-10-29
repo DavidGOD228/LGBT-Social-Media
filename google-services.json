@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "462650964834",
+    "firebase_url": "https://musl-app-v2.firebaseio.com",
+    "project_id": "musl-app-v2",
+    "storage_bucket": "musl-app-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462650964834:android:e36aa1103df4d3b7",
+        "android_client_info": {
+          "package_name": "com.ootem.Musl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462650964834-vf5p61v3cmd69potbbgedkmrt0d2s36a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgKg6328Y_wl6i4cPqtMAYXv8OB3FP-Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462650964834-vf5p61v3cmd69potbbgedkmrt0d2s36a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462650964834-8ln78ib52e9tji39nmpnsfgou1foh3kq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ootem.Musl",
+                "app_store_id": "1241573685"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

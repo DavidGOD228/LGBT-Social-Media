@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly visible empty 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.90)",
+        "flex": 1,
+      }
+    }
+  />
+</Modal>
+`;
+
+exports[`renders correctly visible text 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.90)",
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      All you had to do was follow the damn train CJ
+    </Text>
+  </View>
+</Modal>
+`;

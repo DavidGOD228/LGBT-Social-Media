@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ootem.Musl">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+  <uses-permission android:name="android.permission.TYPE_APPLICATION_OVERLAY"/>
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+  <application
+    android:name=".MainApplication"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme">
+
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-5270300255241526~3096934892"/>
+    <meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value="AIzaSyDgKg6328Y_wl6i4cPqtMAYXv8OB3FP-Xw"/>
+    <service
+      android:name="io.invertase.firebase.messaging.MessagingService">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+
+    <service
+      android:name="io.invertase.firebase.messaging.InstanceIdService">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+      </intent-filter>
+    </service>
+
+    <activity
+      android:name=".MainActivity"
+      android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+      android:label="@string/app_name"
+      android:launchMode="singleTop"
+      android:screenOrientation="portrait"
+      android:theme="@style/SplashTheme"
+      android:windowSoftInputMode="adjustPan">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.facebook.react.devsupport.DevSettingsActivity"/>
+  </application>
+</manifest>

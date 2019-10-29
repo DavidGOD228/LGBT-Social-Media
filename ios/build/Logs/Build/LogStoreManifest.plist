@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>E0F9BA1F-10C9-485C-A346-7574B27E01DE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E0F9BA1F-10C9-485C-A346-7574B27E01DE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Musl project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Musl</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Musl with scheme Musl and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>593386983.36183202</real>
+			<key>timeStoppedRecording</key>
+			<real>593387081.83112895</real>
+			<key>title</key>
+			<string>Building workspace Musl with scheme Musl and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>E0F9BA1F-10C9-485C-A346-7574B27E01DE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

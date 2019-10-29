@@ -1,0 +1,1 @@
+{"version":3,"file":"realm.js","sourceRoot":"","sources":["../../src/initializers/realm.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAA;AACzB,OAAO,cAAc,MAAM,iBAAiB,CAAA;AAC5C,OAAO,aAAa,MAAM,kBAAkB,CAAA;AAE5C,MAAM,KAAK,GAAG,IAAI,KAAK,CAAC;IACtB,MAAM,EAAE,cAAc,CAAC,OAAO,EAAE;IAChC,aAAa,EAAE,aAAa,CAAC,KAAK,CAAC,aAAa;CACjD,CAAC,CAAA;AAEF,eAAe,KAAK,CAAA"}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Musl.iml" filepath="$PROJECT_DIR$/Musl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-admob/android/react-native-admob.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-admob/android/react-native-admob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-cookie/android/react-native-cookie.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-cookie/android/react-native-cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-exit-app/android/react-native-exit-app.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-exit-app/android/react-native-exit-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fast-image/android/react-native-fast-image.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fast-image/android/react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-firebase/android/react-native-firebase.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-firebase/android/react-native-firebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-i18n/android/react-native-i18n.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-i18n/android/react-native-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-photo-view/android/react-native-photo-view.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-photo-view/android/react-native-photo-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-version-check/android/react-native-version-check.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-version-check/android/react-native-version-check.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/realm/android/realm.iml" filepath="$PROJECT_DIR$/../node_modules/realm/android/realm.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={1}
+    style={
+      Object {
+        "flex": 1,
+        "height": 65,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source={1}
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "height": 10,
+              "width": 1,
+            },
+            Object {
+              "height": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </Image>
+</View>
+`;

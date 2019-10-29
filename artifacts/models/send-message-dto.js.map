@@ -1,0 +1,1 @@
+{"version":3,"file":"send-message-dto.js","sourceRoot":"","sources":["../../src/models/send-message-dto.ts"],"names":[],"mappings":"AAEA,MAAM;IAKJ,YAAY,OAAe,EAAE,WAA+B;QAC1D,IAAI,CAAC,OAAO,GAAG,OAAO,CAAA;QACtB,IAAI,CAAC,WAAW,GAAG,WAAW,CAAA;IAChC,CAAC;CACF"}

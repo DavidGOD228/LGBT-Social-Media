@@ -1,0 +1,1506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly empty 1`] = `
+<RCTScrollView
+  data={Array []}
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={5}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onViewableItemsChanged={undefined}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  renderItem={[Function]}
+  renderScrollComponent={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View />
+</RCTScrollView>
+`;
+
+exports[`renders correctly non empty 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "key": 0,
+        "n": 0,
+      },
+      Object {
+        "key": 1,
+        "n": 1,
+      },
+      Object {
+        "key": 2,
+        "n": 2,
+      },
+      Object {
+        "key": 3,
+        "n": 3,
+      },
+      Object {
+        "key": 4,
+        "n": 4,
+      },
+      Object {
+        "key": 5,
+        "n": 5,
+      },
+      Object {
+        "key": 6,
+        "n": 6,
+      },
+      Object {
+        "key": 7,
+        "n": 7,
+      },
+      Object {
+        "key": 8,
+        "n": 8,
+      },
+      Object {
+        "key": 9,
+        "n": 9,
+      },
+      Object {
+        "key": 10,
+        "n": 10,
+      },
+      Object {
+        "key": 11,
+        "n": 11,
+      },
+      Object {
+        "key": 12,
+        "n": 12,
+      },
+      Object {
+        "key": 13,
+        "n": 13,
+      },
+      Object {
+        "key": 14,
+        "n": 14,
+      },
+      Object {
+        "key": 15,
+        "n": 15,
+      },
+      Object {
+        "key": 16,
+        "n": 16,
+      },
+      Object {
+        "key": 17,
+        "n": 17,
+      },
+      Object {
+        "key": 18,
+        "n": 18,
+      },
+      Object {
+        "key": 19,
+        "n": 19,
+      },
+      Object {
+        "key": 20,
+        "n": 20,
+      },
+      Object {
+        "key": 21,
+        "n": 21,
+      },
+      Object {
+        "key": 22,
+        "n": 22,
+      },
+      Object {
+        "key": 23,
+        "n": 23,
+      },
+      Object {
+        "key": 24,
+        "n": 24,
+      },
+      Object {
+        "key": 25,
+        "n": 25,
+      },
+      Object {
+        "key": 26,
+        "n": 26,
+      },
+      Object {
+        "key": 27,
+        "n": 27,
+      },
+      Object {
+        "key": 28,
+        "n": 28,
+      },
+      Object {
+        "key": 29,
+        "n": 29,
+      },
+      Object {
+        "key": 30,
+        "n": 30,
+      },
+      Object {
+        "key": 31,
+        "n": 31,
+      },
+      Object {
+        "key": 32,
+        "n": 32,
+      },
+      Object {
+        "key": 33,
+        "n": 33,
+      },
+      Object {
+        "key": 34,
+        "n": 34,
+      },
+      Object {
+        "key": 35,
+        "n": 35,
+      },
+      Object {
+        "key": 36,
+        "n": 36,
+      },
+      Object {
+        "key": 37,
+        "n": 37,
+      },
+      Object {
+        "key": 38,
+        "n": 38,
+      },
+      Object {
+        "key": 39,
+        "n": 39,
+      },
+      Object {
+        "key": 40,
+        "n": 40,
+      },
+      Object {
+        "key": 41,
+        "n": 41,
+      },
+      Object {
+        "key": 42,
+        "n": 42,
+      },
+      Object {
+        "key": 43,
+        "n": 43,
+      },
+      Object {
+        "key": 44,
+        "n": 44,
+      },
+      Object {
+        "key": 45,
+        "n": 45,
+      },
+      Object {
+        "key": 46,
+        "n": 46,
+      },
+      Object {
+        "key": 47,
+        "n": 47,
+      },
+      Object {
+        "key": 48,
+        "n": 48,
+      },
+      Object {
+        "key": 49,
+        "n": 49,
+      },
+      Object {
+        "key": 50,
+        "n": 50,
+      },
+      Object {
+        "key": 51,
+        "n": 51,
+      },
+      Object {
+        "key": 52,
+        "n": 52,
+      },
+      Object {
+        "key": 53,
+        "n": 53,
+      },
+      Object {
+        "key": 54,
+        "n": 54,
+      },
+      Object {
+        "key": 55,
+        "n": 55,
+      },
+      Object {
+        "key": 56,
+        "n": 56,
+      },
+      Object {
+        "key": 57,
+        "n": 57,
+      },
+      Object {
+        "key": 58,
+        "n": 58,
+      },
+      Object {
+        "key": 59,
+        "n": 59,
+      },
+      Object {
+        "key": 60,
+        "n": 60,
+      },
+      Object {
+        "key": 61,
+        "n": 61,
+      },
+      Object {
+        "key": 62,
+        "n": 62,
+      },
+      Object {
+        "key": 63,
+        "n": 63,
+      },
+      Object {
+        "key": 64,
+        "n": 64,
+      },
+      Object {
+        "key": 65,
+        "n": 65,
+      },
+      Object {
+        "key": 66,
+        "n": 66,
+      },
+      Object {
+        "key": 67,
+        "n": 67,
+      },
+      Object {
+        "key": 68,
+        "n": 68,
+      },
+      Object {
+        "key": 69,
+        "n": 69,
+      },
+      Object {
+        "key": 70,
+        "n": 70,
+      },
+      Object {
+        "key": 71,
+        "n": 71,
+      },
+      Object {
+        "key": 72,
+        "n": 72,
+      },
+      Object {
+        "key": 73,
+        "n": 73,
+      },
+      Object {
+        "key": 74,
+        "n": 74,
+      },
+      Object {
+        "key": 75,
+        "n": 75,
+      },
+      Object {
+        "key": 76,
+        "n": 76,
+      },
+      Object {
+        "key": 77,
+        "n": 77,
+      },
+      Object {
+        "key": 78,
+        "n": 78,
+      },
+      Object {
+        "key": 79,
+        "n": 79,
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={5}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onViewableItemsChanged={undefined}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  renderItem={[Function]}
+  renderScrollComponent={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            0
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            1
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            2
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            3
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            4
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            5
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            6
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            7
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            8
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            9
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            10
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            11
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            12
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            13
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            14
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            15
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            16
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            17
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            18
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            19
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            20
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            21
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            22
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            23
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            24
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            25
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            26
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            27
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            28
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            29
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            30
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            31
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            32
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            33
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            34
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            35
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            36
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            37
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            38
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            39
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            40
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            41
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            42
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            43
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            44
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            45
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            46
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            47
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            48
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#4685c2",
+              "height": 150,
+              "margin": 0,
+              "width": 150,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            49
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

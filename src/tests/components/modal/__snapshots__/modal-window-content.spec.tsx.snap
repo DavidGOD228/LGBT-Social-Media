@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly empty 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingLeft": 40,
+        "paddingRight": 40,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders correctly text 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingLeft": 40,
+        "paddingRight": 40,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      All you had to do was follow the damn train CJ
+    </Text>
+  </View>
+</View>
+`;
