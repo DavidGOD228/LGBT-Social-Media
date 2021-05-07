@@ -56,7 +56,7 @@
     "reflect-metadata": "^0.1.13",
     "sockjs-client": "github:datso/sockjs-client",
     "typescript-memoize": "^1.0.0-alpha.3",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "validate.js": "^0.13.1",
     "websocket": "^1.0.30"
   },
